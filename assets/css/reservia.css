@@ -399,13 +399,13 @@ nav li a:hover
     {
         margin-bottom: 25px!important;
     }
-    .fort, .basilique
+    .fort, .parc
     {
         display: flex;
         height: 150px;
         width: inherit;
     }
-    .ile, .parc
+    .ile, .basilique
     {
         display:flex;
         width: 100%;
@@ -428,19 +428,20 @@ nav li a:hover
     }
     .row4 .basilique img 
     {
+        width: 100%;
+        border-radius: 20px 20px 0 0px;
+        object-fit: cover;
+    }
+    
+
+    .row4 .parc img 
+    {
         height: 85px;
         width: 100%;
         border-radius: 20px 20px 0 0px;
         object-fit: cover;
         object-position: 10% 30%;
-    }
     
-
-    .row2 .fort img 
-    {
-        width: 100%;
-        border-radius: 20px 20px 0 0px;
-        object-fit: cover;
     }
     
     .activitiesTab figure 
